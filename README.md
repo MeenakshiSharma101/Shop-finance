@@ -50,6 +50,24 @@ npm run start:server
 npm run start
 ```
 
+## Deploy On Render
+1. Push code to GitHub (already done).
+2. Open Render dashboard and click `New` -> `Blueprint`.
+3. Select this repository: `MeenakshiSharma101/Shop-finance`.
+4. Render will detect `render.yaml` and create `shop-finance-api`.
+5. After deploy, copy backend URL (example: `https://shop-finance-api.onrender.com`).
+6. Update app API URL in `app/.env`:
+```bash
+EXPO_PUBLIC_API_BASE_URL=https://shop-finance-api.onrender.com
+```
+7. Restart Expo:
+```bash
+cd app
+npm run start -c
+```
+
+Note: Render free plan may sleep after inactivity.
+
 ## API URL Configuration
 Create `app/.env` from `app/.env.example` and set:
 ```bash
