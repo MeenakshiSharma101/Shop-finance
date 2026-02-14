@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Shop Finance",
+    "slug": "shop-finance",
+    "scheme": "shopfinance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0b5fd7"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

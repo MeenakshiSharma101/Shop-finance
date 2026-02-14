@@ -1,0 +1,12 @@
+node_modules
+.expo
+dist
+build
+*.log
+*.sqlite
+*.db
+*.db-*
+server/shop_finance.db
+app/.expo
+server/.env
+app/.env
